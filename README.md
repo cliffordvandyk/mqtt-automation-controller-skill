@@ -6,8 +6,7 @@ Allows control of mqtt-interfaced automation by converting requests to suitable 
 
 ## Examples
  - "Hey mycroft, turn on the pool pump."
- - "Hey mycroft, turn off the kitchen light."
- - "Hey mycroft, set the bedroom light to fifty per cent."
+ - "Hey mycroft, switch off the pool pump."
 
 
 ## Credits

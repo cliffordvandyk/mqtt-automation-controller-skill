@@ -1,0 +1,22 @@
+from mycroft import MycroftSkill, intent_file_handler
+
+
+class MqttAutomationController(MycroftSkill):
+    def __init__(self):
+        MycroftSkill.__init__(self)
+        return
+
+    @intent_file_handler('controller.automation.mqtt.intent')
+    def handle_controller_automation_mqtt(self, message):
+        pump_state =  message.data.get('state')
+        if pump_state is 'on':
+            self.speak_dialog('controller.automation.mqtt.on')
+        elseif pump_state is 'off':
+            self.speak_dialog('controller.automation.mqtt.off')
+        else:
+            self.speak_dialog('controller.automation.mqtt.confused')
+        return
+
+def create_skill():
+    return MqttAutomationController()
+

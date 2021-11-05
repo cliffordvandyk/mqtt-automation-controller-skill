@@ -1,3 +1,18 @@
-Hey mycroft, turn on the pool pump.
-Hey mycroft, turn off the kitchen light.
-Hey mycroft, set the bedroom light to fifty per cent.
+Turn {state} the pool pump.
+Turn {state} pool pump.
+Turn the pool pump {state}.
+Turn pool pump {state}.
+Turn the pool pump {state} please.
+Switch the pool pump {state}.
+Switch pool pump {state}.
+Switch {state} the pool pump.
+Switch {state} pool pump.
+Please switch {state} the pool pump.
+Switch the pool pump {state} please.
+Won't you turn {state} the pool pump.
+Won't you switch {state} the pool pump.
+Won't you switch the pool pump {state}.
+Will you please turn {state} the pool pump.
+Will you turn the pool pump {state}?
+{state} the pool pump.
+Please turn the pool pump {state}.
